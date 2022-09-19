@@ -1,10 +1,3 @@
-/* FONTS
-  -------------------------------------------------- */
-
-  @import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -138,72 +131,10 @@ body {
     margin-right: 50px;
   }
 
-    /* BUTTON
-  -------------------------------------------------- */
-
-  .grow_spin{
-    font-family: 'Mali', cursive;
-    font-weight: bold;
-  }
-
-  .b2{
-    left: 550px;
-  }
-
-  button {
-    font-size: 2em;
-    background: #F0EBE3;
-    color: black;
-    border: 0.25rem solid #F0EBE3;
-    padding: 0.85em 0.75em;
-    margin: 1rem;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
-  .grow_spin button:hover {
-    color: #F0EBE3;
-  }
-  .grow_spin button::after {
-    content: "";
-    background: black;
-    color: white;
-    position: absolute;
-    z-index: -1;
-    padding: 0.85em 0.75em;
-    display: block;
-  }
-  button[class^="slide"]::after {
-    transition: all 0.35s;
-  }
-
-  button[class^="grow"]::after {
-    transition: all 0.3s ease;
-  }
-  button[class^="grow"]:hover::after {
-    transition: all 0.3s ease-out;
-  }
-
-  button[class^="slide"]:hover::after {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    transition: all 0.35s;
-  }
   
-  button.grow_spin::after {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    transform: scale(0, 0) rotate(-180deg);
-  }
-  button.grow_spin:hover::after {
-    transform: scale(1, 1) rotate(0deg);
-  }
   /* RESPONSIVE CSS
   -------------------------------------------------- */
+  @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
 
   @media (min-width: 40em) {
     /* Bump up size of carousel content */
@@ -223,5 +154,3 @@ body {
       margin-top: 7rem;
     }
   }
-
-  
