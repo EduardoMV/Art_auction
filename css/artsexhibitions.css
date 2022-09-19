@@ -59,6 +59,7 @@ body {
   .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+    font-family: 'Lovelyn', sans-serif;
   }
   
   /* Declare heights because of positioning of img element */
@@ -71,6 +72,10 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
+    height: 32rem;
+  }
+
+  .d-block{
     height: 32rem;
   }
   
@@ -109,13 +114,7 @@ body {
     line-height: 1;
     letter-spacing: -.05rem;
   }
-  
 
-  /* Store Grid Cards
-  ------------------------- */
-  .container {
-    margin-top: 2rem;
-  }
 
   /* Artsexhibitions*/
 
@@ -129,6 +128,23 @@ body {
     margin-left: 50px;
     margin-bottom: 50px;
     margin-right: 50px;
+  }
+
+  .card-title{
+    font-family: 'Lovelyn', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  .text-muted{
+    font-family: 'Lovelyn', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .card-text{
+    font-family: sans-serif;
+    font-weight: 100; 
   }
 
   
