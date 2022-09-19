@@ -110,6 +110,13 @@ body {
     letter-spacing: -.05rem;
   }
   
+
+  /* Store Grid Cards
+  ------------------------- */
+  .container {
+    margin-top: 2rem;
+  }
+
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
