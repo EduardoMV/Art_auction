@@ -1,0 +1,57 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #D8CCA3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .navbar-art{
+    font-family: 'Lovelyn', sans-serif;  
+    font-size: large;                       
+    font-weight: bold;                    
+    background-color: #F0EBE3;
+  }
+  
+  .navbar-art a{
+    color: black;
+  }
+  
+  .mr-1{
+    margin-right: 20px;
+  }
+  
+  /* Store Grid Cards
+  ------------------------- */
+  .container {
+    margin-top: 2rem;
+  }
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
