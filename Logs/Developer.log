@@ -1,0 +1,48 @@
+17/09/22:
+    11:54 - Eduardo: Initial Commit. Eduardo created the base files (LICENSE & README)
+    12:03 - Eduardo: v1. Eduardo added the base files (index.html and css/styles.css)
+    19:15 - Eduardo: V2. Eduardo added a NavBar to index.html, styles for it in styles.css and he created a gallery container with JavaScript which it was similar to a carousel. Also he added the file /images with the favico.
+    20:46 - Omar: He created two .htmls which were related to the buttons in the NavBar (store.html and fairs.html) and he added fontawesome icons for the logo and other stuff (which created the file fontawesome with their css's and webfonts) and then he commited the changes. But he didn't knew how to use git pull/push so accidentally Omar made a force push to a new branch and that made a big mess.
+18/09/22:
+    9:14: - Eduardo: Merge pull reques #1 from EduardoMV/master. Eduardo tried to fix what Omar made doing a merge to another branch to back up and then to main but it didn't work so everyone made a new repository to avoid more problems.
+    13:10 - Omar: He learnt how to use Github Desktop and Git to push/pull/merge.
+    13:54 - Eduardo: Added the the base data from last repository to the current one.
+    15:10 - Omar: Added a Navbar logo and my navbar. Omar added the logo.jpeg to images/ and replace the old Navbar with his own.
+    16:03 - Omar: htmls related with the navbar buttons. Omar created 3 .htmls related with the Navbar buttons to redirect to each site. He added the Navbar to all of those. CLOSED PULL REQUEST
+    16:06 - Omar: Added the buy list in store.html and some margin top in the css. It explains itself. CLOSED PULL REQUEST.
+    18:20 - Omar: Added the concept idea of the store and margin top in Css. Omar created the scrapt of the store.html and he modified some data in the css. But Eduardo requested some changes "There is misssing the Hover animations, it may be caused because of the merging htmls". CLOSED PULL REQUEST
+    18:23 - Daniel: Modify nav bar and nav link. Daniel made some changes with te href from the Navs.
+    18:32 - Eduardo: Updating my Branch. Update of my branch to work with the latest changes.
+    19:25 - Eduardo: Eduardo. Modifications regarding the bottom elements, regarding NFT, News and exhibitions. Nav modification, styling and spacing. Font styling. Merged to Eduardo branch from main approved.
+    19:48 - Omar: NavBar added to everyone. Merge branch 'main' into Omar. Each art store and carousel changes. Merge branch 'main' into Omar. Added the buy list in store.html and some margin top in the css. Htmls related with the navbar buttons. Added a Navbar logo and my navbar. Added 100% funtional Navbar to each html
+    19:50 - Eduardo: Update of my personal branch with the funtional NavBar.
+
+19/09/22:
+    10:36 - Eduardo: Merge pull request #8 from EduardoMV/main. Visual Update, change on buttons, added functionality, more fonts.
+    14:57 - Daniel: Add art news and add href of artnews in bottom. Modify botton. Update index.html. Merge branch 'main' into Daniel. Change index and update art exhibitions.
+    20:59 - Omar: 100% Design of each purchase. Merge branch 'main' into Omar. Made the 1st Template of end purchase on Venus. Ugly Template of the Buy Option. Merge branch 'main' into Omar. changes in nvenus.html. Merge branch 'main' into Omar. They work all fine, maybe some changes in the design could be done.
+    21:07 - Eduardo: Updating personal branch. Updating personal branch. Merge from main to Eduardo branch.
+    21:27 - Omar: Added Biography Links on Index Buttons. For the artists. Approved
+    21:28 - Eduardo: Update. Update personal branch with main.
+    21:32 - Omar: Merge my branch with main. Im 2 commits behind. Those commits were 1 from Daniel and 1 from Eduardo. Approved
+    21:38 - Eduardo: Eduardo. General update on main. Approved
+    21:39 - Daniel: Add artnews css, and modify art news html. No description but Daniel create a new space to access in our site. Approved
+    -- We accidentally created blank commits because a mistake in the sync with our personal brands --
+    21:39 - Omar: Merge pull request #16 from EduardoMV/main. Omar started to make the unsync. CLOSED PULL REQUEST
+    21:41 - Omar: Behinds. he made a merge to his branch of the changes from Daniel.
+    21:41 - Eduardo: Updating my personal branch. Update. He merged his branch with main.
+    21:41 - Omar: 2 ahead. Same problem with syncing the commits with the others. CLOSED PULL REQUEST
+    
+    ----- Due to the unsync, since we are working via Live Share since a few hours ago,
+    we are going to do the last commit from Eduardo's branch to main and that's all -----
+    
+    ----- Most of Daniel's work was made via Live Share -----
+    
+    ----- Omar made some work via Live Share but mostly from its own branch -----
+
+    ----- LAST WORK VIA VSCODE LIVE SHARE IN EDUARDO'S DESKTOP----
+            Daniel: Add content to the artnews, help correct some things in the css, give more formatting to some things in the html of artexhibitions and arts news, etc.
+
+            Omar: Checked errors, fixed some sizeing, sorted files and changes of /, added some missing parts that are shared, and fixed some classes in .css. Fixed the Navbar, ended the Store and store for each item.
+
+            Eduardo: 
