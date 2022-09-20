@@ -1,7 +1,7 @@
 /* FONTS
   -------------------------------------------------- */
 
-  @import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+  @import url('http://fonts.cdnfonts.com/css/lovelyn');
 
   @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
 
@@ -66,7 +66,9 @@ body {
   .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+    font-family: 'Lovelyn', sans-serif;
   }
+
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
@@ -78,6 +80,10 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
+    height: 32rem;
+  }
+
+  .d-block{
     height: 32rem;
   }
   
@@ -102,9 +108,12 @@ body {
     font-family: 'Eagle Lake', cursive;
   }
   
-  
   /* Featurettes
   ------------------------- */
+
+  .row{
+    font-family: 'Times New Roman', Times, serif;
+  }
   
   .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -116,38 +125,25 @@ body {
     line-height: 1;
     letter-spacing: -.05rem;
   }
-  
 
-  /* Store Grid Cards
+  /* NFT
   ------------------------- */
-  .container {
+
+  .nft{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: x-large;
+  }
+
+  .container-nft {
     margin-top: 2rem;
-  }
-
-  /* Artsexhibitions*/
-
-  .card-img-top{
-    width: 200px;
-    height: 400px;
-  }
-
-  .card{
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    margin-right: 50px;
   }
 
     /* BUTTON
   -------------------------------------------------- */
 
   .grow_spin{
-    font-family: 'Mali', cursive;
+    font-family:  'Lovelyn', sans-serif;
     font-weight: bold;
-  }
-
-  .b2{
-    left: 550px;
   }
 
   button {
@@ -204,6 +200,8 @@ body {
   }
   /* RESPONSIVE CSS
   -------------------------------------------------- */
+
+  
 
   @media (min-width: 40em) {
     /* Bump up size of carousel content */
