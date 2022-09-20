@@ -1,0 +1,143 @@
+/* FONTS
+  -------------------------------------------------- */
+
+  @import url('http://fonts.cdnfonts.com/css/lovelyn');
+
+  @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+html {
+  box-sizing: border-box;
+}
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    font-family: 'Lovelyn', sans-serif;
+    margin: 0;
+  }
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #D8CCA3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .navbar-art{
+    font-family: 'Lovelyn', sans-serif;  
+    font-size: large;                       
+    font-weight: bold;                    
+    background-color: #F0EBE3;
+  }
+  
+  .navbar-art a{
+    color: black;
+  }
+  
+  .mr-1{
+    margin-right: 20px;
+  }
+  /* About Us */
+    
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column-about {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card-about {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    font-weight: 700px;
+    font-family: 'Lovelyn', sans-serif;
+    padding: 50px;
+    text-align: center;
+    background-color: #F0EBE3;
+    color: black;
+  }
+  
+  .container-about {
+    padding: 0 16px;
+  }
+  
+  .container-about::after, .row-about::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .about-section p{
+    font-family: 'Lovelyn', sans-serif;
+  }
+  
+  .OT{
+    font-family: 'Lovelyn', sans-serif;
+    background-color: #f0ebe3c1;
+  }
+
+  h2{
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .content-about{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .title-about {
+    font-family: 'Lovelyn', sans-serif;
+    color: grey;
+  }
+  
+  .button-about {
+    font-family: 'Lovelyn', sans-serif;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: #F0EBE3;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button-about:hover {
+    background-color: #D8CCA3;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column-about {
+      width: 100%;
+      display: block;
+    }
+  }
